@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title> watch a movie</title>
+<meta charset = "UTF-8"/>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1" />
+<!--bootstrap link-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="js/bootstrap.js" ></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- content start here -->
+<body>
+<header>
+  <div class = "container-fluid top-bar">
+    <nav class="col navbar navbar-expand-md navbar-dark ">
+      
+    <a class="navbar-brand" href="index.html"><img src="images/logo.JPEG" width="60" height="45"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+			<li class =" nav-item">
+			<a class = "nav-link" href ="#"> Contact us</a>
+			<li class ="nav-item">
+            <a class="nav-link" href= "#"> Services</a>
+            <li class="nav-item">
+              <button class="btn btn-info btn-lg form1"  type="button" data-toggle="modal" data-target="#myModal" tabindex="-1">Reserve Your Seat</button>
+              <div id="myModal" class="modal fade">
+              <div class="modal-dialog">
+              <div class="modal-content">
+              <div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+              <h4 class="modal-title">Reserve Your Seat</h4>
+              </div>
+              <div class="modal-body">
+                <div class="popup">
+                <form action="#" method="post" enctype="text/plain">
+                    <input type="text" id="name" name="name" required />
+                    <label for="name">Name</label>
+                    
+                    <input type="tel" id="tel" name="t" required />
+                    <label for="tel">Telephone </label>
+                    
+                    <input type="e-mail" id="email" name="email" required />
+                    <label for="email">Your Email</label>
+                    
+                    <select name="service" placeholder="number of seat"> 
+                      <option value="Seat">Number of Seat</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="more">More</option>
+                    </select>
+                    <textarea id="info" placeholder="Your Message here"></textarea>
+                    
+                    
+                    <input type="submit" name="submit" value="Send">
+                  </form>
+                </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              
+            </div>
+        </ul>
+    </div>
+  
+  </div>
+</nav>
+</header>
+<div class="container-fluid">
+  
+
+  
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/film2.jpg" alt="film house" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Welcome to Watch it out</h3>
+        <p>A night to enjoy your favorite movies outside your home </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <img src="images/film3.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>The comedy movie night </h3>
+        <p>This is the night set for laughing and we are assuring you the best comedy movies ever.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/trailer.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Action Movies</h3>
+        <p>We expect every couple to come with thier partner to enjoy the thrill of our romance colection movies</p>
+      </div>
+    </div>
+    <div class="carousel-item"><img src="images/hero.jpg" alt="film new" width="1100" height="500">
+    <div class="carousel-caption d-none d-md-block">
+      <h3>Adventure Movies</h3>
+      <p>We will take you through memory lane and you'll be lost in this adventure movies that will be showing that day</p>
+    </div> </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+
+<!-- Main container Start -->  
+<div class="about">
+  <div class="container">
+    <div class="row">          
+      <div class="col-md-6 col-sm-12">
+        <img src="images/film4.jpg" width="400" height="400" alt="">              
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="about-content">
+          <h2 class="medium-title">About Watch it ouside event Co.</h2>
+          <p class="desc"> Watch it outside events Co is an international film festival  and is organizing an outdoor film festival in Boston, is organizins event this year called ‘Watch it outside Boston edition’.
+            ..</p>
+          <p>Clara Dunn is the founder of Watch it outside events Co. She hopes to select and show films from August 5th to 8th in Boston Public Garden, a park in Boston that can hold up to 1,500 people. 🌉</p>
+          <p>The mission of Watch it outside Co. Film Festival is to promote the appreciation of Arts and Culture through the motion picture arts and sciences and increase tourism in Boston USA.
+    
+          </p>
+          <a href="#" class="btn btn-info">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--main container end here-->
+
+
+
+
+<div class="container my-3 my-sm-5">
+  <h1 class="mb-sm-4 text-center">Comming Soon...</h1>
+  <p class="lead text-center">
+     Watch your favorite movie.
+  </p>
+  <nav aria-label="Search results pages">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+      <li class="page-item active">
+        <a href="#" class="page-link"
+          >1<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="page-item"><a href="#" class="page-link">2</a></li>
+      <li class="page-item"><a href="#" class="page-link">3</a></li>
+      <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    </ul>
+  </nav>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+      <figure class="figure">
+        <a href=""
+          ><img
+            src="images/iron-man.jpg" width="400" height="500"
+            class="figure-img img-fluid img-thumbnail"
+            alt="Figure image"
+        /></a>
+        <figcaption class="figure-caption text-center">
+          <h6>Iron Man<small>(05-08-2020)</small></h6>
+          <p>
+            
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4">
+      <figure class="figure">
+        <a href=""
+          ><img
+            src="images/scary.jpg" width="400" height="500"
+            class="figure-img img-fluid img-thumbnail"
+            alt="Figure image"
+        /></a>
+        <figcaption class="figure-caption text-center">
+          <h6>Scary<small>(06-08-2020)</small></h6>
+          <p>
+             
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <figure class="figure">
+        <a href=""
+          ><img
+            src="images/jungle.WEBP" width="400" height="500"
+            class="figure-img img-fluid img-thumbnail"
+            alt="Figure image"
+        /></a>
+        <figcaption class="figure-caption text-center">
+          <h6>jungle Criuse<small>(08-08-2020)</small></h6>
+          <p>
+            
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+<!--blog section start here-->
+  <section id="blog" class="section">
+    <!-- Container Starts -->
+    <div class="container">
+      <h2 class="section-title">
+        Latest News
+      </h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 blog-item">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper">
+            <div class="blog-item-img">
+              <a href="#">
+                <img src="images/movi.jpeg" width="200" height="220" alt="">
+              </a>                
+            </div>
+            <div class="blog-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="ti-calendar"></i> June 20, 2020</span>
+                <span class="comments"><a href="#"><i class="ti-comment-alt"></i> 5 Comments</a></span>
+              </div>
+              <a href="#">
+                <h3>
+                  Watchout for some exciting new movies
+                </h3>
+              </a>
+              <p>
+                Disney+ is bringing some exciting new movies and series to their catalog of classics! Check out what's streaming this month
+              </p>
+              <a href="#" class="btn btn-info">Read More</a>
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 blog-item">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper">
+            <div class="blog-item-img">
+              <a href="#">
+                <img src="images/ap2.jpg" width="200" height="220" alt="">
+              </a>                
+            </div>
+            <div class="blog-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="ti-calendar"></i> July 20, 2020</span>
+                <span class="comments"><a href="#"><i class="ti-comment-alt"></i> 5 Comments</a></span>
+              </div>
+              <a href="#">
+                <h3>
+                  Footage From Dune Arriving Next Month
+                </h3>
+              </a>
+              <p>
+                Theaters are beginning to make their first tentative steps towards returning to business as usual,
+                 although they  
+              </p>
+              <a href="#" class="btn btn-info">Read More</a>
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 blog-item">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper">
+            <div class="blog-item-img">
+              <a href="#">
+                <img src="images/Ap.jpg" width="200" height="220" alt="">
+              </a>                
+            </div>
+            <div class="blog-item-text">
+              <div class="meta-tags">
+                <span class="date"><i class="ti-calendar"></i> August 11, 2018</span>
+                <span class="comments"><a href="#"><i class="ti-comment-alt"></i> 5 Comments</a></span>
+              </div>
+              <a href="#">
+                <h3>
+                  Stranger Things’ and ‘Bill and Ted’ 
+                </h3>
+              </a>
+              <p>
+                Attention, fans of comic book spin-offs: Two big pieces of pop culture entertainment are getting their
+                 own comics.
+              </p>
+              <a href="#" class="btn btn-info">Read More</a>
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<footer>
+  <div class="container-fluid">
+    
+  
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <h6>Quick links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">What's new</a></li>
+          <li><a href="#">Featured Movies</a></li>
+          <li><a href="#">News letter</a></li>
+          <li><a href="#">Our Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3">
+        <h6>Follow Us</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class= "fa fa-twitter"></a> </li>
+      
+          <li><a href="#" class="fa fa-youtube"></a></li>
+          <li><a href="#"class= "fa fa-instagram"></a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3">
+        <h6>Join us</h6>
+        <p class="add">Join our mailing list to stay up to date and get notices about our new releases!</p>
+                <form class="subscribe-box">
+                  <input type="text" placeholder="Your email">
+                  <input type="submit" class="btn-system" value="Send">
+                </form>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3">
+        <h6>Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services/a></li>
+      
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3">
+        <h6>More Website</h6>
+        <ul class="list-unstyled">
+          <li><a href="https://www.bostonglobe.com/">Bosten News Website</a></li>
+          <li><a href="https://travel.usnews.com/Boston_MA/Things_To_Do/Boston_Public_Garden_51246/">Bosten Public Garden </a></li>
+      
+          
+        </ul>
+      </div>
+
+
+
+      <div class="col-12 col-sm-6 col-md-3">
+        <address> 
+          <h6>Contact us</h6><br />
+          <div class="add">
+          Hillside Lagos<br>
+          Nigeria<br />
+          <abbr title="Telephone">Tel:</abbr
+          ><a href="tel:+234806847883">+2348051591190</a><br />
+          <abbr title="Mail">Email:</abbr
+          ><a href="mailto:info@watchout.com">info@watchout.com</a>
+        
+          </div>
+                </address>
+      </div>
+    
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-9" align = "center">
+        <ul class="list-inline">
+          <li class="list-inline-item">&copy; watch it outsite, Inc.</li>
+          <li class="list-inline-item">All rights reserved.</li>
+          <li class="list-inline-item">
+            <a href="#">Terms of use and privacy policy</a>
+          </li>
+        </ul>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+  crossorigin="anonymous"
+>
+
+
+</script>
+
+
+</body>
+</HTML>
